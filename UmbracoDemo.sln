@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "UmbracoDemo.Web", "UmbracoDemo.Web\", "{F095FD98-51CF-43C6-B416-AF5890770A80}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{d2ef81d2-e6cd-4638-8b6d-f45e6f44e578}|UmbracoDemo.Core.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_1946"
+		Debug.AspNetCompiler.PhysicalPath = "UmbracoDemo.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1946\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_1946"
+		Release.AspNetCompiler.PhysicalPath = "UmbracoDemo.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_1946\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1946"
+		SlnRelativePath = "UmbracoDemo.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578} = {D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoDemo.Core", "UmbracoDemo.Core\UmbracoDemo.Core.csproj", "{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F095FD98-51CF-43C6-B416-AF5890770A80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F095FD98-51CF-43C6-B416-AF5890770A80}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2EF81D2-E6CD-4638-8B6D-F45E6F44E578}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4DE774D5-EB47-4E94-A7E7-627B7E8389E2}
+	EndGlobalSection
+EndGlobal

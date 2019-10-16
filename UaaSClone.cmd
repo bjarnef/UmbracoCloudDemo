@@ -1,0 +1,1 @@
+git clone https://dev-cloud-bf-oerskov-dk.scm.s1.umbraco.io/4813763e-d9d4-4bfb-b79f-53cc36ea75b0.git UmbracoDemo.Web
